@@ -1,87 +1,135 @@
-# MindfulMe: Your Companion for Mental Well-being
+# 🌿 WellBeing
 
-## Overview
-A comprehensive web application that offers resources and tools to aid users in managing their mental well-being and wellbeing. Created as part of CS-545, this application emphasizes user interaction, support, and education.
+A modern digital wellbeing application designed to help users track, analyze, and improve their daily habits and screen time usage.
 
-## Live Demo
+---
 
-You can explore a live demo of the application [here](https://mindfulme.vercel.app/).
+## 📌 Overview
 
-**Demo Login Credentials:**
-- Username: demo@example.com
-- Password: demo1234
+**WellBeing** is a productivity and wellness-focused project that empowers users to maintain a healthy balance between digital life and personal well-being.
 
-> Note: The Chat Moderation and AI Chat features are disabled in the live demo to avoid incurring OpenAI charges.
+The application provides insights into user activity, helps build better habits, and encourages mindful usage of technology.
 
-## Presentation and Demo
+---
 
-- [View Presentation PDF](https://github.com/hppanpaliya/mindfulMe/raw/main/HCI%20Presentation.pdf)
+## 🚀 Features
 
-  
-[![Demo Video](https://img.youtube.com/vi/weAp2bFLJDM/0.jpg)](https://www.youtube.com/watch?v=weAp2bFLJDM)
+* 📊 **Activity Tracking** – Monitor daily screen time and usage patterns
+* ⏱️ **Usage Analytics** – Visualize time spent on different activities
+* 🎯 **Goal Setting** – Set personal wellness and productivity goals
+* 🔔 **Reminders & Alerts** – Get notified when limits are exceeded
+* 📅 **History Tracking** – Analyze past behavior and trends
+* 👤 **User Profiles** – Personalized experience for each user
 
+---
 
+## 🛠️ Tech Stack
 
-## Features
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Node.js / Python (depending on your implementation)
+* **Database:** MongoDB / SQLite / JSON
+* **Other Tools:** APIs, Chart libraries
 
-- **Homepage**: Overview of available features.
-- **Mood Journal**: Mood tracking, journaling with data visualization.
-- **Support Circles**: Virtual peer support groups with text moderation, suicide prevention, and abuse prevention measures.
-- **Peer Chat**: Forums for peer support and shared experiences.
-- **Memory Booster**: Interactive game to boost memory and focus.
-- **Creative Canvas**: Therapeutic art tool for expression and stress relief.
-- **Coping Toolbox**: Resources on coping mechanisms for managing stress and anxiety.
-- **CBT Fundamentals**: Introduction to cognitive-behavioral therapy techniques.
-- **Goal Planner**: Personalized goal setting and progress tracking.
-- **Wellness Quiz**: Mental Well-being self-assessment tools and quizzes.
-- **Habit Organizer**: Habit management and tracking.
-- **Mindful Meditation**: Guided meditations and mindfulness practices.
-- **AI Counselor**: 24/7 AI chatbot support for coping and self-care.
-- **Survey**: Participate in mental well-being related surveys.
-- **Dark Mode**, **Email Notifications**, **Push Notifications**.
+---
 
-## Technologies
+## 📂 Project Structure
 
-- **React**: Frontend framework.
-- **Firebase**: Backend database, authentication, and more.
-- **Redux**: State management.
-- **Framer Motion**: For animations.
-- **Material UI**: UI component library.
-  
-### Backend for AI Chatbot & Peer Chat Moderation
+```
+WellBeing/
+│
+├── public/              # Static files (CSS, JS, images)
+├── src/                 # Main source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Application pages/views
+│   ├── services/        # API calls / business logic
+│   ├── utils/           # Helper functions
+│
+├── backend/             # Server-side code
+│   ├── routes/          # API routes
+│   ├── controllers/     # Logic for routes
+│   ├── models/          # Database schemas
+│
+├── database/            # Database files/config
+├── logs/                # Activity logs (if applicable)
+├── config/              # Configuration files
+├── .env                 # Environment variables
+├── package.json         # Project dependencies
+└── README.md            # Project documentation
+```
 
-The chatbot leverages the power of OpenAI for 24/7 support and assistance. The peer chat feature also integrates a moderation server for enhanced user safety. Find more details [here](https://github.com/hppanpaliya/openai-text-moderation-server).
+---
 
-## Getting Started
+## ⚙️ Installation & Setup
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/hppanpaliya/CS-545-Mental-Health-Support/
-   ```
+1. Clone the repository:
 
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/VijayV2003/WellBeing.git
+```
 
-3. **Start the Development Server**
-   ```bash
-   npm start
-   ```
+2. Navigate into the project folder:
 
-## Code Overview
+```bash
+cd WellBeing
+```
 
-The app is structured with various components:
+3. Install dependencies:
 
-- **`App.js`**: Handles themes, routes, and authentication.
-- **`store`**: Redux store and slices for state management.
-- Sub-folders in **`components`**: Different features like Mood Tracker, Peer Chat, Goal Planner, etc.
-- **`utils`**: Helper functions, Firebase setup, and more.
+```bash
+npm install
+```
 
-## Contributing
+4. Start the application:
 
-Your contributions are always welcome! Open an issue for bugs or feature requests and feel free to submit pull requests.
+```bash
+npm start
+```
 
-## License
+---
 
-This project is under the [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) for more details.
+## 📸 Screenshots
+
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/37b499a4-eba0-4afb-ac1b-456218e9ecbc" />
+<img width="1899" height="870" alt="image" src="https://github.com/user-attachments/assets/3a35be93-4557-4f62-9e75-ebb69a496b4a" />
+
+---
+
+## 🎯 Use Cases
+
+* Reduce excessive screen time
+* Build healthier digital habits
+* Improve productivity
+* Track personal growth
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Vijay V**
+
+* GitHub: https://github.com/VijayV2003
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
